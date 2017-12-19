@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Centvrio.Emoji
+﻿namespace Centvrio.Emoji
 {
     public class FaceRole
     {
