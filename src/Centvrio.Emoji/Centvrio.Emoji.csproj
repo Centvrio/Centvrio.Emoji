@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Version>1.0.0-beta1</Version>
-    <Authors>Sergey N. Sytnik</Authors>
+    <Authors>Sergey N. Sytnic</Authors>
     <Company>Sergey N. Sytnic</Company>
     <Product>Emoji v5.0 implementation for .NET</Product>
     <Description>Emoji v5.0 implementation for .NET</Description>
