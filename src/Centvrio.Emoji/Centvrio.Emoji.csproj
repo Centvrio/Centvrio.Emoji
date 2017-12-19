@@ -2,6 +2,29 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0-beta1</Version>
+    <Authors>Sergey N. Sytnik</Authors>
+    <Company>Sergey N. Sytnic</Company>
+    <Product>Emoji v5.0 implementation for .NET</Product>
+    <Description>Emoji v5.0 implementation for .NET</Description>
+    <Copyright>Copyright © Sergey N. Sytnic, 2017</Copyright>
+    <PackageTags>Emoji Unicode UTF32</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Added subgroups:
+face-positive
+face-neutral
+face-negative
+face-sick
+face-role
+face-fantasy</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
 </Project>
