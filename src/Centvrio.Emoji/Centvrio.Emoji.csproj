@@ -17,6 +17,9 @@ face-negative
 face-sick
 face-role
 face-fantasy</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/Centvrio/Centvrio.Emoji</RepositoryUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Centvrio/Centvrio.Emoji</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
