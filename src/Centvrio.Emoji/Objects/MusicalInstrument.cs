@@ -5,31 +5,31 @@
         /// <summary>
         /// Saxophone 🎷
         /// </summary>
-        public static readonly EmojiString Saxophone = 0x1F3B7;
+        public static readonly UnicodeString Saxophone = 0x1F3B7;
 
         /// <summary>
         /// Guitar 🎸
         /// </summary>
-        public static readonly EmojiString Guitar = 0x1F3B8;
+        public static readonly UnicodeString Guitar = 0x1F3B8;
 
         /// <summary>
         /// Musical keyboard 🎹
         /// </summary>
-        public static readonly EmojiString MusicalKeyboard = 0x1F3B9;
+        public static readonly UnicodeString MusicalKeyboard = 0x1F3B9;
 
         /// <summary>
         /// Trumpet 🎺
         /// </summary>
-        public static readonly EmojiString Trumpet = 0x1F3BA;
+        public static readonly UnicodeString Trumpet = 0x1F3BA;
 
         /// <summary>
         /// Violin 🎻
         /// </summary>
-        public static readonly EmojiString Violin = 0x1F3BB;
+        public static readonly UnicodeString Violin = 0x1F3BB;
 
         /// <summary>
         /// Drum 🥁
         /// </summary>
-        public static readonly EmojiString Drum = 0x1F941;
+        public static readonly UnicodeString Drum = 0x1F941;
     }
 }
