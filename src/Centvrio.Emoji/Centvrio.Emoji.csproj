@@ -14,8 +14,8 @@
     <RepositoryUrl>https://github.com/Centvrio/Centvrio.Emoji</RepositoryUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/Centvrio/Centvrio.Emoji/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Centvrio/Centvrio.Emoji</PackageProjectUrl>
-    <AssemblyVersion>1.0.0.39</AssemblyVersion>
-    <FileVersion>1.0.0.39</FileVersion>
+    <AssemblyVersion>1.0.0.48</AssemblyVersion>
+    <FileVersion>1.0.0.48</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
