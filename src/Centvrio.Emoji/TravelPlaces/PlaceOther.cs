@@ -1,4 +1,4 @@
-﻿namespace Centvrio.Emoji.TravelPlaces
+﻿namespace Centvrio.Emoji
 {
     public class PlaceOther
     {
