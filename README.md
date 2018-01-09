@@ -9,7 +9,20 @@ Install-Package Centvrio.Emoji -IncludePrerelease
 ```
 
 ### Documentation
-Create emoji 👨🏿
+Use single-character emoji
+```csharp
+string print = $"Grinning face: {FacePositive.Grinning}";
+```
+**Result:** Grinning face: 😀
+
+Create single-character emoji
+```csharp
+UnicodeString smile = 0x1F600;
+string print = $"Grinning face: {smile}";
+```
+**Result:** Grinning face: 😀
+
+Create multi-character emoji
 ```csharp
 UnicodeSequence manDarkSkin = Person.Man + ModifierFitzpatrick.Type6;
 string print = $"Man dark skin tone emoji: {manDarkSkin}";
