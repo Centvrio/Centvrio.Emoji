@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repo", "repo", "{8A8CA4E0-D
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2DD430E0-4CA9-4FE1-980E-442CED77E234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centvrio.Emoji.Tests", "test\Centvrio.Emoji.Tests\Centvrio.Emoji.Tests.csproj", "{45DC5C06-FADA-43E0-9B88-380113EA4646}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,12 +30,17 @@ Global
 		{1F086045-6DEF-491A-BB55-33AC030FDA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F086045-6DEF-491A-BB55-33AC030FDA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F086045-6DEF-491A-BB55-33AC030FDA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DC5C06-FADA-43E0-9B88-380113EA4646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DC5C06-FADA-43E0-9B88-380113EA4646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DC5C06-FADA-43E0-9B88-380113EA4646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DC5C06-FADA-43E0-9B88-380113EA4646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1F086045-6DEF-491A-BB55-33AC030FDA36} = {DCD992EA-AE1B-43FC-9ED0-1F8E446F4679}
+		{45DC5C06-FADA-43E0-9B88-380113EA4646} = {2DD430E0-4CA9-4FE1-980E-442CED77E234}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D73D8611-3447-418D-823E-4BBEDB0D6A0D}
