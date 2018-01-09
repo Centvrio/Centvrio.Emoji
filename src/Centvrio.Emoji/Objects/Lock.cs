@@ -9,31 +9,31 @@ namespace Centvrio.Emoji
         /// <summary>
         /// Locked 🔒
         /// </summary>
-        public static readonly EmojiString Locked = 0x1F512;
+        public static readonly UnicodeString Locked = 0x1F512;
 
         /// <summary>
         /// Unlocked 🔓
         /// </summary>
-        public static readonly EmojiString Unlocked = 0x1F513;
+        public static readonly UnicodeString Unlocked = 0x1F513;
 
         /// <summary>
         /// Locked with pen 🔏
         /// </summary>
-        public static readonly EmojiString LockedWithPen = 0x1F50F;
+        public static readonly UnicodeString LockedWithPen = 0x1F50F;
 
         /// <summary>
         /// Locked with key 🔐
         /// </summary>
-        public static readonly EmojiString LockedWithKey = 0x1F510;
+        public static readonly UnicodeString LockedWithKey = 0x1F510;
 
         /// <summary>
         /// Key 🔑
         /// </summary>
-        public static readonly EmojiString Key = 0x1F511;
+        public static readonly UnicodeString Key = 0x1F511;
 
         /// <summary>
         /// Old key 🗝
         /// </summary>
-        public static readonly EmojiString OldKey = 0x1F5DD;
+        public static readonly UnicodeString OldKey = 0x1F5DD;
     }
 }

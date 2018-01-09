@@ -5,11 +5,11 @@
         /// <summary>
         /// Syringe 💉
         /// </summary>
-        public static readonly EmojiString Syringe = 0x1F489;
+        public static readonly UnicodeString Syringe = 0x1F489;
 
         /// <summary>
         /// Pill 💊
         /// </summary>
-        public static readonly EmojiString Pill = 0x1F48A;
+        public static readonly UnicodeString Pill = 0x1F48A;
     }
 }

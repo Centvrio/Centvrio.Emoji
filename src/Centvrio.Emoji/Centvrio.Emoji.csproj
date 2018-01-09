@@ -2,20 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.0.0-beta2</Version>
+    <Version>1.0.0-beta3</Version>
     <Authors>Sergey N. Sytnic</Authors>
     <Company>Sergey N. Sytnic</Company>
     <Product>Emoji v5.0 implementation for .NET</Product>
     <Description>Emoji v5.0 implementation for .NET</Description>
-    <Copyright>Copyright © Sergey N. Sytnic, 2017</Copyright>
+    <Copyright>Copyright © Sergey N. Sytnic, 2018</Copyright>
     <PackageTags>Emoji Unicode UTF32</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReleaseNotes>https://github.com/Centvrio/Centvrio.Emoji/releases</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/Centvrio/Centvrio.Emoji</RepositoryUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/Centvrio/Centvrio.Emoji/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Centvrio/Centvrio.Emoji</PackageProjectUrl>
-    <AssemblyVersion>1.0.0.12</AssemblyVersion>
-    <FileVersion>1.0.0.12</FileVersion>
+    <AssemblyVersion>1.0.0.48</AssemblyVersion>
+    <FileVersion>1.0.0.48</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
