@@ -80,6 +80,6 @@
         /// <summary>
         /// VARIATION SELECTOR-16
         /// </summary>
-        public static readonly UnicodeString VS16 = 0xFE0E;
+        public static readonly UnicodeString VS16 = 0xFE0F;
     }
 }
