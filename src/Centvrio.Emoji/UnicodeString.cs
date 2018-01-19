@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Centvrio.Emoji
 {
-    public struct UnicodeString : IEquatable<UnicodeString>, IComparable, IComparable<UnicodeString>
+    public struct UnicodeString : IEquatable<UnicodeString>, IEquatable<int>, IEquatable<string>, IComparable, IComparable<UnicodeString>, IComparable<int>, IComparable<string>
     {
         /// <summary>
         /// Emoji code (UTF32)
@@ -23,7 +22,7 @@ namespace Centvrio.Emoji
             }
             if (Code <= 0xFFFF)
             {
-                return new char[1] { (char)Code};
+                return new char[1] { (char)Code };
             }
             char[] pair = new char[2];
             int code = Code - 0x10000;
@@ -34,20 +33,46 @@ namespace Centvrio.Emoji
             return pair;
         }
 
-        public bool Equals(UnicodeString other) => Code == other.Code;
-
         public int CompareTo(UnicodeString other) => Code.CompareTo(other.Code);
 
-        public int CompareTo(object obj) => Code.CompareTo(obj);
+        public int CompareTo(int other) => Code.CompareTo(other);
+
+        public int CompareTo(string other) => ToString().CompareTo(other);
+
+        public int CompareTo(object obj)
+        {
+            switch (obj)
+            {
+                case UnicodeString ustring:
+                    return CompareTo(ustring);
+                case int number:
+                    return CompareTo(number);
+                case string str when !string.IsNullOrEmpty(str):
+                    return CompareTo(str);
+                case null:
+                    return 1;
+            }
+            throw new ArgumentException("Argument must be UnicodeString, Int32 or String");
+        }
+
+        public bool Equals(UnicodeString other) => Code == other.Code;
+
+        public bool Equals(int other) => Code == other;
+
+        public bool Equals(string other) => ToString() == other;
 
         public override bool Equals(object obj)
         {
-            if (!(obj is UnicodeString))
+            switch (obj)
             {
-                return false;
+                case UnicodeString ustring:
+                    return Equals(ustring);
+                case int number:
+                    return Equals(number);
+                case string str when !string.IsNullOrEmpty(str):
+                    return Equals(str);
             }
-            var other = (UnicodeString)obj;
-            return Code == other.Code;
+            return false;
         }
 
         public override int GetHashCode() => Code;
@@ -62,7 +87,7 @@ namespace Centvrio.Emoji
 
         public static explicit operator int(UnicodeString emojiString) => emojiString.Code;
 
-        public static UnicodeSequence operator +(UnicodeString left, UnicodeString right) 
+        public static UnicodeSequence operator +(UnicodeString left, UnicodeString right)
             => new UnicodeSequence(2)
                 .Add(left)
                 .Add(right);

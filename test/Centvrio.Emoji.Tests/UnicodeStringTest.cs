@@ -20,5 +20,14 @@ namespace Centvrio.Emoji.Tests
             string actual = "🧒🏻";
             Assert.Equal(expected, actual);
         }
+        
+        [Theory]
+        [InlineData(0x1F600, "😀")]
+        public void Equals_implementation(int code, string smile)
+        {
+            UnicodeString unicode = FacePositive.Grinning;
+            Assert.True(unicode.Equals(code));
+            Assert.True(unicode.Equals(smile));
+        }
     }
 }
