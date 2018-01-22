@@ -28,3 +28,10 @@ UnicodeSequence manDarkSkin = Person.Man + ModifierFitzpatrick.Type6;
 string print = $"Man dark skin tone emoji: {manDarkSkin}";
 ```
 **Result:** Man dark skin tone emoji: 👨🏿
+
+Create country flag
+```csharp
+UnicodeSequence ukraine = RegionalIndicator.U + RegionalIndicator.A;
+string print = $"Ukraine flag: {ukraine}";
+```
+**Result:** Ukraine flag: 🇺🇦

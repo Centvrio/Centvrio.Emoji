@@ -32,5 +32,13 @@ namespace Centvrio.Emoji.Tests
             string actual = "👨‍👦";
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void Create_country_flag()
+        {
+            UnicodeSequence expected = RegionalIndicator.U + RegionalIndicator.A;
+            string actual = "🇺🇦";
+            Assert.Equal(expected.ToString(), actual);
+        }
     }
 }
