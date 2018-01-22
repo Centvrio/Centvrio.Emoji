@@ -7,7 +7,7 @@ namespace Centvrio.Emoji
 {
     public class UnicodeSequence : IEnumerable<UnicodeString>
     {
-        private readonly IList<UnicodeString> unicodeStrings;
+        private readonly List<UnicodeString> unicodeStrings;
 
         /// <summary>
         /// Initializes a new instance of Centvrio.Emoji.UnicodeSequence
@@ -20,14 +20,13 @@ namespace Centvrio.Emoji
             {
                 throw new ArgumentOutOfRangeException("Capacity is less than 0.");
             }
-            Capacity = capacity;
             unicodeStrings = new List<UnicodeString>(capacity);
         }
 
         /// <summary>
         /// Gets or sets the total number of elements the internal sequence.
         /// </summary>
-        public int Capacity { get; private set; }
+        public int Capacity => unicodeStrings?.Capacity ?? 0;
 
         /// <summary>
         /// Add item to Centvrio.Emoji.UnicodeSequence.
@@ -66,7 +65,6 @@ namespace Centvrio.Emoji
             {
                 return null;
             }
-            left.Capacity++;
             return left.Add(right);
         }
     }
