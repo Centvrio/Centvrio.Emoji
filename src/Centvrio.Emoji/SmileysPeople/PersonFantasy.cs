@@ -3,48 +3,53 @@
     public class PersonFantasy
     {
         /// <summary>
-        /// Person frowning 🙍
+        /// Baby angel 👼
         /// </summary>
-        public static readonly UnicodeString Frowning = 0x1F64D;
+        public static readonly UnicodeString BabyAngel = 0x1F47C;
 
         /// <summary>
-        /// Person pouting 🙎
+        /// Santa Claus 🎅
         /// </summary>
-        public static readonly UnicodeString Pouting = 0x1F64E;
+        public static readonly UnicodeString SantaClaus = 0x1F385;
 
         /// <summary>
-        /// Person gesturing NO 🙅
+        /// Mrs. Claus 🤶
         /// </summary>
-        public static readonly UnicodeString GesturingNO = 0x1F645;
+        public static readonly UnicodeString MrsClaus = 0x1F936;
 
         /// <summary>
-        /// Person gesturing OK 🙆
+        /// Mage 🧙
         /// </summary>
-        public static readonly UnicodeString GesturingOK = 0x1F646;
+        public static readonly UnicodeString Mage = 0x1F9D9;
 
         /// <summary>
-        /// Person tipping hand 💁
+        /// Fairy 🧚
         /// </summary>
-        public static readonly UnicodeString TippingHand = 0x1F481;
+        public static readonly UnicodeString Fairy = 0x1F9DA;
 
         /// <summary>
-        /// Person raising hand 🙋
+        /// Vampire 🧛
         /// </summary>
-        public static readonly UnicodeString RaisingHand = 0x1F64B;
+        public static readonly UnicodeString Vampire = 0x1F9DB;
 
         /// <summary>
-        /// Person bowing 🙇
+        /// Merperson 🧜
         /// </summary>
-        public static readonly UnicodeString Bowing = 0x1F647;
+        public static readonly UnicodeString Merperson = 0x1F9DC;
 
         /// <summary>
-        /// Person facepalming 🤦
+        /// Elf 🧝
         /// </summary>
-        public static readonly UnicodeString Facepalming = 0x1F926;
+        public static readonly UnicodeString Elf = 0x1F9DD;
 
         /// <summary>
-        /// Person shrugging 🤷
+        /// Genie 🧞
         /// </summary>
-        public static readonly UnicodeString Shrugging = 0x1F937;
+        public static readonly UnicodeString Genie = 0x1F9DE;
+
+        /// <summary>
+        /// Zombie 🧟
+        /// </summary>
+        public static readonly UnicodeString Zombie = 0x1F9DF;
     }
 }
