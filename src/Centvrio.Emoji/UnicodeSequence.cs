@@ -7,7 +7,7 @@ namespace Centvrio.Emoji
 {
     public class UnicodeSequence : IEnumerable<UnicodeString>
     {
-        private readonly List<UnicodeString> unicodeStrings;
+        private readonly List<UnicodeString> storage;
 
         /// <summary>
         /// Initializes a new instance of Centvrio.Emoji.UnicodeSequence
@@ -20,13 +20,13 @@ namespace Centvrio.Emoji
             {
                 throw new ArgumentOutOfRangeException("Capacity is less than 0.");
             }
-            unicodeStrings = new List<UnicodeString>(capacity);
+            storage = new List<UnicodeString>(capacity);
         }
 
         /// <summary>
         /// Gets or sets the total number of elements the internal sequence.
         /// </summary>
-        public int Capacity => unicodeStrings?.Capacity ?? 0;
+        public int Capacity => storage?.Capacity ?? 0;
 
         /// <summary>
         /// Add item to Centvrio.Emoji.UnicodeSequence.
@@ -35,13 +35,13 @@ namespace Centvrio.Emoji
         /// <returns>Current Centvrio.Emoji.UnicodeSequence instance</returns>
         public UnicodeSequence Add(UnicodeString unicodeString)
         {
-            unicodeStrings.Add(unicodeString);
+            storage.Add(unicodeString);
             return this;
         }
 
         public IEnumerator<UnicodeString> GetEnumerator()
         {
-            foreach (UnicodeString unicodeString in unicodeStrings)
+            foreach (UnicodeString unicodeString in storage)
             {
                 yield return unicodeString;
             }
@@ -51,8 +51,8 @@ namespace Centvrio.Emoji
 
         public override string ToString()
         {
-            var sb = new StringBuilder(unicodeStrings.Count * 2);
-            foreach (UnicodeString unicodeString in unicodeStrings)
+            var sb = new StringBuilder(storage.Count * 2);
+            foreach (UnicodeString unicodeString in storage)
             {
                 sb.Append(unicodeString.ToCharArray());
             }
@@ -65,6 +65,7 @@ namespace Centvrio.Emoji
             {
                 return null;
             }
+            left.storage.Capacity++;
             return left.Add(right);
         }
     }
