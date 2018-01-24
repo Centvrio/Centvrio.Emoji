@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DCD992EA-AE1B-43FC-9ED0-1F8E446F4679}"
 EndProject
@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repo", "repo", "{8A8CA4E0-D
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		.travis.yml = .travis.yml
 		LICENSE = LICENSE
 		logo.png = logo.png
 		README.md = README.md
@@ -18,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repo", "repo", "{8A8CA4E0-D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2DD430E0-4CA9-4FE1-980E-442CED77E234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centvrio.Emoji.Tests", "test\Centvrio.Emoji.Tests\Centvrio.Emoji.Tests.csproj", "{45DC5C06-FADA-43E0-9B88-380113EA4646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centvrio.Emoji.Tests", "test\Centvrio.Emoji.Tests\Centvrio.Emoji.Tests.csproj", "{45DC5C06-FADA-43E0-9B88-380113EA4646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
