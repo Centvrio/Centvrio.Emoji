@@ -2,6 +2,8 @@
 [![NuGet](https://img.shields.io/nuget/v/Centvrio.Emoji.svg?style=flat-square)](https://www.nuget.org/packages/Centvrio.Emoji/)
 [![NuGet](https://img.shields.io/nuget/dt/Centvrio.Emoji.svg?style=flat-square)](https://www.nuget.org/packages/Centvrio.Emoji/)
 [![GitHub license](https://img.shields.io/github/license/Centvrio/Centvrio.Emoji.svg?style=flat-square)](https://github.com/Centvrio/Centvrio.Emoji/blob/master/LICENSE)
+[![AppVeyor](https://img.shields.io/appveyor/ci/Centvrio/centvrio-emoji.svg?style=flat-square)](https://ci.appveyor.com/project/Centvrio/centvrio-emoji)
+[![AppVeyor tests](https://img.shields.io/appveyor/tests/Centvrio/centvrio-emoji.svg?style=flat-square)](https://ci.appveyor.com/project/Centvrio/centvrio-emoji)
 
 ### Get it on NuGet
 ```powershell
