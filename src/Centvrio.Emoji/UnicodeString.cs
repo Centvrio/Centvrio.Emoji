@@ -12,15 +12,17 @@ namespace Centvrio.Emoji
         /// <summary>
         /// Convert UTF32 to UTF16 character array
         /// </summary>
-        /// <exception cref="InvalidOperationException"/>
+        /// <exception cref="InvalidOperationException">
+        /// Code is not a valid Unicode code point ranging from U+0 through U+10FFFF, excluding the surrogate pair range from U+D800 through U+DFFF.
+        /// </exception>
         /// <returns>UTF16 character array</returns>
         public char[] ToCharArray()
         {
-            if ((Code >= 0xD800 && Code <= 0xDFFF) || (Code < 0 || Code > 0x10FFFF))
+            if (Code.IsInvalid())
             {
-                throw new InvalidOperationException();
+                throw new InvalidOperationException("Code is not a valid Unicode code point ranging from U+0 through U+10FFFF, excluding the surrogate pair range from U+D800 through U+DFFF.");
             }
-            if (Code <= 0xFFFF)
+            if (Code.IsSingle())
             {
                 return new char[1] { (char)Code };
             }
@@ -81,7 +83,14 @@ namespace Centvrio.Emoji
         /// Convert the UTF32 emoji representation to its equivalent UTF16 string.
         /// </summary>
         /// <returns>The UTF16 string.</returns>
-        public override string ToString() => char.ConvertFromUtf32(Code);
+        public override string ToString()
+        {
+            if (Code.IsSingle())
+            {
+                return new string((char)Code, 1);
+            }
+            return char.ConvertFromUtf32(Code);
+        }
 
         public static implicit operator UnicodeString(int code) => new UnicodeString { Code = code };
 
