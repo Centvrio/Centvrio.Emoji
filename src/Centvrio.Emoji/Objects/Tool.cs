@@ -1,4 +1,6 @@
-﻿namespace Centvrio.Emoji
+﻿using System;
+
+namespace Centvrio.Emoji
 {
     public class Tool
     {
@@ -69,7 +71,9 @@
 
         /// <summary>
         /// Alembic ⚗
+        /// <para/> Obsolete. Use <see cref="Science.Alembic"/>
         /// </summary>
+        [Obsolete]
         public static readonly UnicodeString Alembic = 0x2697;
 
         /// <summary>
@@ -87,5 +91,14 @@
         /// </summary>
         public static readonly UnicodeString Chains = 0x26D3;
 
+        /// <summary>
+        /// Toolbox
+        /// </summary>
+        public static readonly UnicodeString Toolbox = 0x1F9F0;
+
+        /// <summary>
+        /// Magnet
+        /// </summary>
+        public static readonly UnicodeString Magnet = 0x1F9F2;
     }
 }

@@ -171,5 +171,10 @@
         /// Trade mark ™️
         /// </summary>
         public static readonly UnicodeString Trade = 0x2122;
+
+        /// <summary>
+        /// Infinity ♾️
+        /// </summary>
+        public static readonly UnicodeString Infinity = 0x267E;
     }
 }
