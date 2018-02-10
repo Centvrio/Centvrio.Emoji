@@ -206,5 +206,45 @@
         /// Mouth 👄
         /// </summary>
         public static readonly UnicodeString Mouth = 0x1F444;
+
+        /// <summary>
+        /// Leg
+        /// </summary>
+        public static readonly UnicodeString Leg = 0x1F9B5;
+
+        /// <summary>
+        /// Foot
+        /// </summary>
+        public static readonly UnicodeString Foot = 0x1F9B6;
+
+        /// <summary>
+        /// Red-haired
+        /// </summary>
+        public static readonly UnicodeString RedHaired = 0x1F9B0;
+
+        /// <summary>
+        /// Curly-haired
+        /// </summary>
+        public static readonly UnicodeString CurlyHaired = 0x1F9B1;
+
+        /// <summary>
+        /// Bald
+        /// </summary>
+        public static readonly UnicodeString Bald = 0x1F9B2;
+
+        /// <summary>
+        /// White-haired
+        /// </summary>
+        public static readonly UnicodeString WhiteHaired = 0x1F9B3;
+
+        /// <summary>
+        /// Bone
+        /// </summary>
+        public static readonly UnicodeString Bone = 0x1F9B4;
+
+        /// <summary>
+        /// Tooth
+        /// </summary>
+        public static readonly UnicodeString Tooth = 0x1F9B7;
     }
 }

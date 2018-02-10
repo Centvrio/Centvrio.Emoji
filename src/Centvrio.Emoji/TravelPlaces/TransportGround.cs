@@ -201,5 +201,10 @@
         /// Stop sign 🛑
         /// </summary>
         public static readonly UnicodeString StopSign = 0x1F6D1;
+
+        /// <summary>
+        /// Oil drum 🛢
+        /// </summary>
+        public static readonly UnicodeString OilDrum = 0x1F6E2;
     }
 }

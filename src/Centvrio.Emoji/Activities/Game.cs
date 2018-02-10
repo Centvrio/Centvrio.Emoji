@@ -3,6 +3,11 @@
     public class Game
     {
         /// <summary>
+        /// Crystal ball 🔮
+        /// </summary>
+        public static readonly UnicodeString CrystalBall = 0x1F52E;
+
+        /// <summary>
         /// Video game 🎮
         /// </summary>
         public static readonly UnicodeString VideoGame = 0x1F3AE;

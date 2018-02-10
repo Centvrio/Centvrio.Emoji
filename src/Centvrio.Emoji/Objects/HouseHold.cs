@@ -31,5 +31,10 @@
         /// Bathtub 🛁
         /// </summary>
         public static readonly UnicodeString Bathtub = 0x1F6C1;
+
+        /// <summary>
+        /// Shopping cart 🛒
+        /// </summary>
+        public static readonly UnicodeString ShoppingCart = 0x1F6D2;
     }
 }
