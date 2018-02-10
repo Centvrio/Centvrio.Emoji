@@ -51,5 +51,15 @@
         /// Scorpion 🦂
         /// </summary>
         public static readonly UnicodeString Scorpion = 0x1F982;
+
+        /// <summary>
+        /// Mosquito
+        /// </summary>
+        public static readonly UnicodeString Mosquito = 0x1F99F;
+
+        /// <summary>
+        /// Microbe
+        /// </summary>
+        public static readonly UnicodeString Microbe = 0x1F9A0;
     }
 }
