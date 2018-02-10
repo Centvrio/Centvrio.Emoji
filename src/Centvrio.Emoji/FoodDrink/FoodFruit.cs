@@ -81,5 +81,10 @@
         /// Coconut 🥥
         /// </summary>
         public static readonly UnicodeString Coconut = 0x1F965;
+
+        /// <summary>
+        /// Mango
+        /// </summary>
+        public static readonly UnicodeString Mango = 0x1F96D;
     }
 }

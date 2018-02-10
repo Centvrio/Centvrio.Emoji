@@ -56,5 +56,10 @@
         /// Chestnut 🌰
         /// </summary>
         public static readonly UnicodeString Chestnut = 0x1F330;
+
+        /// <summary>
+        /// Leafy green
+        /// </summary>
+        public static readonly UnicodeString LeafyGreen = 0x1F96C;
     }
 }
