@@ -60,27 +60,6 @@ namespace Centvrio.Emoji
         public static readonly UnicodeString GlassRight = 0x1F50E;
 
         /// <summary>
-        /// Microscope 🔬
-        /// <para/> Obsolete. Use <see cref="Science.Microscope"/>
-        /// </summary>
-        [Obsolete]
-        public static readonly UnicodeString Microscope = 0x1F52C;
-
-        /// <summary>
-        /// Telescope 🔭
-        /// <para/> Obsolete. Use <see cref="Science.Telescope"/>
-        /// </summary>
-        [Obsolete]
-        public static readonly UnicodeString Telescope = 0x1F52D;
-
-        /// <summary>
-        /// Satellite antenna 📡
-        /// <para/> Obsolete. Use <see cref="Science.SatelliteAntenna"/>
-        /// </summary>
-        [Obsolete]
-        public static readonly UnicodeString SatelliteAntenna = 0x1F4E1;
-
-        /// <summary>
         /// Candle 🕯
         /// </summary>
         public static readonly UnicodeString Candle = 0x1F56F;

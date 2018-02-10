@@ -70,13 +70,6 @@ namespace Centvrio.Emoji
         public static readonly UnicodeString Clamp = 0x1F5DC;
 
         /// <summary>
-        /// Alembic ⚗
-        /// <para/> Obsolete. Use <see cref="Science.Alembic"/>
-        /// </summary>
-        [Obsolete]
-        public static readonly UnicodeString Alembic = 0x2697;
-
-        /// <summary>
         /// Balance scale ⚖
         /// </summary>
         public static readonly UnicodeString BalanceScale = 0x2696;
