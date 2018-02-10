@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <Authors>Sergey N. Sytnic</Authors>
     <Company>Sergey N. Sytnic</Company>
     <Product>Emoji v5.0 implementation for .NET</Product>
@@ -14,8 +14,8 @@
     <RepositoryUrl>https://github.com/Centvrio/Centvrio.Emoji</RepositoryUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/Centvrio/Centvrio.Emoji/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Centvrio/Centvrio.Emoji</PackageProjectUrl>
-    <AssemblyVersion>1.0.1.83</AssemblyVersion>
-    <FileVersion>1.0.1.83</FileVersion>
+    <AssemblyVersion>1.1.0.95</AssemblyVersion>
+    <FileVersion>1.1.0.95</FileVersion>
     <PackageIconUrl>https://raw.githubusercontent.com/Centvrio/Centvrio.Emoji/master/logo.png</PackageIconUrl>
   </PropertyGroup>
 
