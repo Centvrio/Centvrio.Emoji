@@ -61,5 +61,10 @@
         /// Dvd 📀
         /// </summary>
         public static readonly UnicodeString Dvd = 0x1F4C0;
+
+        /// <summary>
+        /// Abacus
+        /// </summary>
+        public static readonly UnicodeString Abacus = 0x1F9EE;
     }
 }

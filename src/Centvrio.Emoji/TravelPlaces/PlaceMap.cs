@@ -31,5 +31,10 @@
         /// Map of Japan 🗾
         /// </summary>
         public static readonly UnicodeString Japan = 0x1F5FE;
+
+        /// <summary>
+        /// Compass
+        /// </summary>
+        public static readonly UnicodeString Compass = 0x1F9ED;
     }
 }

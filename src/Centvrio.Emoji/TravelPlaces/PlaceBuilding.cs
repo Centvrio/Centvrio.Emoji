@@ -121,5 +121,10 @@
         /// Statue of Liberty 🗽
         /// </summary>
         public static readonly UnicodeString StatueOfLiberty = 0x1F5FD;
+
+        /// <summary>
+        /// Bricks
+        /// </summary>
+        public static readonly UnicodeString Bricks = 0x1F9F1;
     }
 }

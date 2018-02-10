@@ -41,5 +41,20 @@
         /// Nerd face 🤓
         /// </summary>
         public static readonly UnicodeString Nerd = 0x1F913;
+
+        /// <summary>
+        /// Partying face
+        /// </summary>
+        public static readonly UnicodeString Partying = 0x1F973;
+
+        /// <summary>
+        /// Woozy face
+        /// </summary>
+        public static readonly UnicodeString Woozy = 0x1F974;
+
+        /// <summary>
+        /// Pleading face
+        /// </summary>
+        public static readonly UnicodeString Pleading = 0x1F97A;
     }
 }

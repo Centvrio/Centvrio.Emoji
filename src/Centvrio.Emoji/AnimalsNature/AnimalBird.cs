@@ -61,5 +61,20 @@
         /// Owl 🦉
         /// </summary>
         public static readonly UnicodeString Owl = 0x1F989;
+
+        /// <summary>
+        /// swan
+        /// </summary>
+        public static readonly UnicodeString Swan = 0x1F9A2;
+
+        /// <summary>
+        /// peacock
+        /// </summary>
+        public static readonly UnicodeString Peacock = 0x1F99A;
+
+        /// <summary>
+        /// parrot
+        /// </summary>
+        public static readonly UnicodeString Parrot = 0x1F99C;
     }
 }

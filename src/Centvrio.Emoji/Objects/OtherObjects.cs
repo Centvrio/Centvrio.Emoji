@@ -1,4 +1,6 @@
-﻿namespace Centvrio.Emoji
+﻿using System;
+
+namespace Centvrio.Emoji
 {
     public class OtherObjects
     {
@@ -24,17 +26,24 @@
 
         /// <summary>
         /// Oil drum 🛢
+        /// <para/>
+        /// Obsolete. Use <see cref="TransportGround.OilDrum"/>
         /// </summary>
+        [Obsolete]
         public static readonly UnicodeString OilDrum = 0x1F6E2;
 
         /// <summary>
         /// Crystal ball 🔮
+        /// <para/> Obsolete. Use <see cref="Game.CrystalBall"/>
         /// </summary>
+        [Obsolete]
         public static readonly UnicodeString CrystalBall = 0x1F52E;
 
         /// <summary>
         /// Shopping cart 🛒
+        /// <para/> Obsolete. Use <see cref="HouseHold.ShoppingCart"/>
         /// </summary>
+        [Obsolete]
         public static readonly UnicodeString ShoppingCart = 0x1F6D2;
     }
 }
