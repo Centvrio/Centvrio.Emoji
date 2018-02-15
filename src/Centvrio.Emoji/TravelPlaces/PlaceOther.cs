@@ -85,30 +85,8 @@ namespace Centvrio.Emoji
         public static readonly UnicodeString CircusTent = 0x1F3AA;
 
         /// <summary>
-        /// Performing arts 🎭
-        /// <para/> Obsolete. Use <see cref="ArtsCrafts.PerformingArts"/>
-        /// </summary>
-        [Obsolete]
-        public static readonly UnicodeString PerformingArts = 0x1F3AD;
-
-        /// <summary>
-        /// Framed picture 🖼️
-        /// <para/> Obsolete. Use <see cref="ArtsCrafts.FramedPicture"/>
-        /// </summary>
-        [Obsolete]
-        public static readonly UnicodeString FramedPicture = 0x1F5BC;
-
-        /// <summary>
-        /// Artist palette 🎨
-        /// <para/> Obsolete. Use <see cref="ArtsCrafts.ArtistPalette"/>
-        /// </summary>
-        [Obsolete]
-        public static readonly UnicodeString ArtistPalette = 0x1F3A8;
-
-        /// <summary>
         /// Slot machine 🎰
         /// </summary>
         public static readonly UnicodeString SlotMachine = 0x1F3B0;
-
     }
 }
