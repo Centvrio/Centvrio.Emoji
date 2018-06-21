@@ -108,7 +108,7 @@
         public static readonly UnicodeString StarStruck = 0x1f929;
 
         /// <summary>
-        /// Smiling face with 3 hearts 🥰
+        /// Smiling face with 3 hearts
         /// </summary>
         public static readonly UnicodeString ThreeHearts = 0x1F970;
     }
