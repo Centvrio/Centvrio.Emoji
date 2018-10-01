@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Centvrio.Emoji
+﻿namespace Centvrio.Emoji
 {
     public class Tool
     {
