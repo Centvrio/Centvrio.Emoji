@@ -208,7 +208,7 @@
         public static readonly UnicodeString OilDrum = 0x1F6E2;
 
         /// <summary>
-        /// Skateboard
+        /// Skateboard 🛹
         /// </summary>
         public static readonly UnicodeString Skateboard = 0x1F6F9;
     }

@@ -168,22 +168,22 @@
         public static readonly UnicodeString GemStone = 0x1F48E;
 
         /// <summary>
-        /// Goggles
+        /// Goggles 🥽
         /// </summary>
         public static readonly UnicodeString Goggles = 0x1F97D;
 
         /// <summary>
-        /// Lab coat
+        /// Lab coat 🥼
         /// </summary>
         public static readonly UnicodeString LabCoat = 0x1F97C;
 
         /// <summary>
-        /// Hiking boot
+        /// Hiking boot 🥾
         /// </summary>
         public static readonly UnicodeString HikingBoot = 0x1F97E;
 
         /// <summary>
-        /// Woman’s flat shoe
+        /// Woman’s flat shoe 🥿
         /// </summary>
         public static readonly UnicodeString WomanFlatShoe = 0x1F97F;
     }

@@ -133,12 +133,12 @@
         public static readonly UnicodeString CannedFood = 0x1F96B;
 
         /// <summary>
-        /// Bagel
+        /// Bagel 🥯
         /// </summary>
         public static readonly UnicodeString Bagel = 0x1F96F;
 
         /// <summary>
-        /// Salt
+        /// Salt 🧂
         /// </summary>
         public static readonly UnicodeString Salt = 0x1F9C2;
     }

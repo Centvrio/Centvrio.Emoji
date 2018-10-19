@@ -53,12 +53,12 @@
         public static readonly UnicodeString Zombie = 0x1F9DF;
 
         /// <summary>
-        /// Superhero
+        /// Superhero 🦸
         /// </summary>
         public static readonly UnicodeString Superhero = 0x1F9B8;
 
         /// <summary>
-        /// Supervillain
+        /// Supervillain 🦹
         /// </summary>
         public static readonly UnicodeString Supervillain = 0x1F9B9;
     }

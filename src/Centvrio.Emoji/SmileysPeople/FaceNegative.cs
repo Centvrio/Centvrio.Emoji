@@ -113,12 +113,12 @@
         public static readonly UnicodeString SymbolsOnMouth = 0x1F92C;
 
         /// <summary>
-        /// Hot face
+        /// Hot face 🥵
         /// </summary>
         public static readonly UnicodeString Hot = 0x1F975;
 
         /// <summary>
-        /// Cold face
+        /// Cold face 🥶
         /// </summary>
         public static readonly UnicodeString Cold = 0x1F976;
     }

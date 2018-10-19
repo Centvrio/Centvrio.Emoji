@@ -18,12 +18,12 @@
         public static readonly UnicodeString ArtistPalette = 0x1F3A8;
 
         /// <summary>
-        /// Thread
+        /// Thread 🧵
         /// </summary>
         public static readonly UnicodeString Thread = 0x1F9F5;
 
         /// <summary>
-        /// Yarn
+        /// Yarn 🧶
         /// </summary>
         public static readonly UnicodeString Yarn = 0x1F9F6;
     }

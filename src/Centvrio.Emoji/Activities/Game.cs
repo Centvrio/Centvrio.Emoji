@@ -58,17 +58,17 @@
         public static readonly UnicodeString FlowerPlayingCards = 0x1F3B4;
 
         /// <summary>
-        /// Nazar amulet
+        /// Nazar amulet 🧿
         /// </summary>
         public static readonly UnicodeString NazarAmulet = 0x1F9FF;
 
         /// <summary>
-        /// Jigsaw
+        /// Jigsaw 🧩
         /// </summary>
         public static readonly UnicodeString Jigsaw = 0x1F9E9;
 
         /// <summary>
-        /// Teddy bear
+        /// Teddy bear 🧸
         /// </summary>
         public static readonly UnicodeString TeddyBear = 0x1F9F8;
 

@@ -63,7 +63,7 @@
         public static readonly UnicodeString Squid = 0x1F991;
 
         /// <summary>
-        /// Lobster
+        /// Lobster 🦞
         /// </summary>
         public static readonly UnicodeString Lobster = 0x1F99E;
     }

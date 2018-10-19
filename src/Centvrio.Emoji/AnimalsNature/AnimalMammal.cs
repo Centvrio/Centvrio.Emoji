@@ -243,27 +243,27 @@
         public static readonly UnicodeString PawPrints = 0x1F43E;
 
         /// <summary>
-        /// Raccoon
+        /// Raccoon 🦝
         /// </summary>
         public static readonly UnicodeString Raccoon = 0x1F99D;
 
         /// <summary>
-        /// Llama
+        /// Llama 🦙
         /// </summary>
         public static readonly UnicodeString Llama = 0x1F999;
 
         /// <summary>
-        /// Hippopotamus
+        /// Hippopotamus 🦛
         /// </summary>
         public static readonly UnicodeString Hippopotamus = 0x1F99B;
 
         /// <summary>
-        /// Kangaroo
+        /// Kangaroo 🦘
         /// </summary>
         public static readonly UnicodeString Kangaroo = 0x1F998;
 
         /// <summary>
-        /// Badger
+        /// Badger 🦡
         /// </summary>
         public static readonly UnicodeString Badger = 0x1F9A1;
     }

@@ -53,7 +53,7 @@
         public static readonly UnicodeString DollarSign = 0x1F4B2;
 
         /// <summary>
-        /// Receipt
+        /// Receipt 🧾
         /// </summary>
         public static readonly UnicodeString Receipt = 0x1F9FE;
     }
