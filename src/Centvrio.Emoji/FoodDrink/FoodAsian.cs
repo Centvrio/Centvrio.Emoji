@@ -83,7 +83,7 @@
         public static readonly UnicodeString TakeoutBox = 0x1F961;
 
         /// <summary>
-        /// Moon cake
+        /// Moon cake 🥮
         /// </summary>
         public static readonly UnicodeString MoonCake = 0x1F96E;
     }

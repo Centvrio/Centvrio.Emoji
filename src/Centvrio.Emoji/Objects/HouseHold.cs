@@ -38,42 +38,42 @@
         public static readonly UnicodeString ShoppingCart = 0x1F6D2;
 
         /// <summary>
-        /// Lotion bottle
+        /// Lotion bottle 🧴
         /// </summary>
         public static readonly UnicodeString LotionBottle = 0x1F9F4;
 
         /// <summary>
-        /// Safety pin
+        /// Safety pin 🧷
         /// </summary>
         public static readonly UnicodeString SafetyPin = 0x1F9F7;
 
         /// <summary>
-        /// Broom
+        /// Broom 🧹
         /// </summary>
         public static readonly UnicodeString Broom = 0x1F9F9;
 
         /// <summary>
-        /// Basket
+        /// Basket 🧺
         /// </summary>
         public static readonly UnicodeString Basket = 0x1F9FA;
 
         /// <summary>
-        /// Roll of paper
+        /// Roll of paper 🧻
         /// </summary>
         public static readonly UnicodeString RollOfPaper = 0x1F9FB;
 
         /// <summary>
-        /// Soap
+        /// Soap 🧼
         /// </summary>
         public static readonly UnicodeString Soap = 0x1F9FC;
 
         /// <summary>
-        /// Sponge
+        /// Sponge 🧽
         /// </summary>
         public static readonly UnicodeString Sponge = 0x1F9FD;
 
         /// <summary>
-        /// Fire extinguisher
+        /// Fire extinguisher 🧯
         /// </summary>
         public static readonly UnicodeString FireExtinguisher = 0x1F9EF;
     }

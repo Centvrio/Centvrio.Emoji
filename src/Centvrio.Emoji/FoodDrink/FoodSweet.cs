@@ -68,7 +68,7 @@
         public static readonly UnicodeString HoneyPot = 0x1F36F;
 
         /// <summary>
-        /// Cupcake
+        /// Cupcake 🧁
         /// </summary>
         public static readonly UnicodeString Cupcake = 0x1F9C1;
     }

@@ -98,12 +98,12 @@
         public static readonly UnicodeString Ticket = 0x1F3AB;
 
         /// <summary>
-        /// Firecracker
+        /// Firecracker 🧨
         /// </summary>
         public static readonly UnicodeString Firecracker = 0x1F9E8;
 
         /// <summary>
-        /// Red envelope
+        /// Red envelope 🧧
         /// </summary>
         public static readonly UnicodeString RedEnvelope = 0x1F9E7;
     }

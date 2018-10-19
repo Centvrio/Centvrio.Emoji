@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Centvrio.Emoji
+﻿namespace Centvrio.Emoji
 {
     public class Tool
     {
@@ -85,12 +83,12 @@ namespace Centvrio.Emoji
         public static readonly UnicodeString Chains = 0x26D3;
 
         /// <summary>
-        /// Toolbox
+        /// Toolbox 🧰
         /// </summary>
         public static readonly UnicodeString Toolbox = 0x1F9F0;
 
         /// <summary>
-        /// Magnet
+        /// Magnet 🧲
         /// </summary>
         public static readonly UnicodeString Magnet = 0x1F9F2;
     }

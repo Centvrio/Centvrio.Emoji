@@ -128,17 +128,17 @@
         public static readonly UnicodeString CurlingStone = 0x1F94C;
 
         /// <summary>
-        /// Softball
+        /// Softball 🥎
         /// </summary>
         public static readonly UnicodeString Softball = 0x1F94E;
 
         /// <summary>
-        /// Flying disc
+        /// Flying disc 🥏
         /// </summary>
         public static readonly UnicodeString FlyingDisc = 0x1F94F;
 
         /// <summary>
-        /// Lacrosse
+        /// Lacrosse 🥍
         /// </summary>
         public static readonly UnicodeString Lacrosse = 0x1F94D;
     }

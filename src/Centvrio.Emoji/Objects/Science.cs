@@ -23,17 +23,17 @@
         public static readonly UnicodeString SatelliteAntenna = 0x1F4E1;
 
         /// <summary>
-        /// Test tube
+        /// Test tube 🧪
         /// </summary>
         public static readonly UnicodeString TestTube = 0x1F9EA;
 
         /// <summary>
-        /// Petri dish
+        /// Petri dish 🧫
         /// </summary>
         public static readonly UnicodeString PetriDish = 0x1F9EB;
 
         /// <summary>
-        /// Dna
+        /// Dna 🧬
         /// </summary>
         public static readonly UnicodeString Dna = 0x1F9EC;
     }
