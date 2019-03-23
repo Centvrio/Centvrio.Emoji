@@ -76,5 +76,15 @@
         /// Fire extinguisher 🧯
         /// </summary>
         public static readonly UnicodeString FireExtinguisher = 0x1F9EF;
+
+        /// <summary>
+        /// Chair
+        /// </summary>
+        public static readonly UnicodeString Chair = 0x1FA91;
+
+        /// <summary>
+        /// Razor
+        /// </summary>
+        public static readonly UnicodeString Razor = 0x1FA92;
     }
 }

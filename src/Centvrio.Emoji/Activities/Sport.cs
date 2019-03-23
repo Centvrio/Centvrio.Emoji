@@ -141,5 +141,10 @@
         /// Lacrosse 🥍
         /// </summary>
         public static readonly UnicodeString Lacrosse = 0x1F94D;
+
+        /// <summary>
+        /// Diving mask
+        /// </summary>
+        public static readonly UnicodeString DivingMask = 0x1F93F;
     }
 }

@@ -186,5 +186,35 @@
         /// Woman’s flat shoe 🥿
         /// </summary>
         public static readonly UnicodeString WomanFlatShoe = 0x1F97F;
+
+        /// <summary>
+        /// Safety vest
+        /// </summary>
+        public static readonly UnicodeString SafetyVest = 0x1F9BA;
+
+        /// <summary>
+        /// Sari
+        /// </summary>
+        public static readonly UnicodeString Sari = 0x1F97B;
+
+        /// <summary>
+        /// One-piece swimsuit
+        /// </summary>
+        public static readonly UnicodeString OnePieceSwimsuit = 0x1FA71;
+
+        /// <summary>
+        /// Briefs
+        /// </summary>
+        public static readonly UnicodeString Briefs = 0x1FA72;
+
+        /// <summary>
+        /// Shorts
+        /// </summary>
+        public static readonly UnicodeString Shorts = 0x1FA73;
+
+        /// <summary>
+        /// Ballet shoes
+        /// </summary>
+        public static readonly UnicodeString BalletShoes = 0x1FA70;
     }
 }

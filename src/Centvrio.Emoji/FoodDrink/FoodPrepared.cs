@@ -141,5 +141,20 @@
         /// Salt 🧂
         /// </summary>
         public static readonly UnicodeString Salt = 0x1F9C2;
+
+        /// <summary>
+        /// Waffle
+        /// </summary>
+        public static readonly UnicodeString Waffle = 0x1F9C7;
+
+        /// <summary>
+        /// Falafel
+        /// </summary>
+        public static readonly UnicodeString Falafel = 0x1F9C6;
+
+        /// <summary>
+        /// Butter
+        /// </summary>
+        public static readonly UnicodeString Butter = 0x1F9C8;
     }
 }

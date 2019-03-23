@@ -26,5 +26,10 @@
         /// Kaaba 🕋
         /// </summary>
         public static readonly UnicodeString Kaaba = 0x1F54B;
+
+        /// <summary>
+        /// Hindu temple
+        /// </summary>
+        public static readonly UnicodeString HinduTemple = 0x1F6D5;
     }
 }

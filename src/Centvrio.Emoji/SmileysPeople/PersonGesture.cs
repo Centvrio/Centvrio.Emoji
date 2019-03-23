@@ -46,5 +46,10 @@
         /// Person shrugging 🤷
         /// </summary>
         public static readonly UnicodeString Shrugging = 0x1F937;
+
+        // <summary>
+        /// Deaf person
+        /// </summary>
+        public static readonly UnicodeString Deaf = 0x1F9CF;
     }
 }

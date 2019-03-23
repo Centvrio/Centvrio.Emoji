@@ -226,5 +226,10 @@
         /// Water wave 🌊
         /// </summary>
         public static readonly UnicodeString WaterWave = 0x1F30A;
+
+        /// <summary>
+        /// Ringed planet
+        /// </summary>
+        public static readonly UnicodeString RingedPlanet = 0x1FA90;
     }
 }

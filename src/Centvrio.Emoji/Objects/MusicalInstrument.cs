@@ -31,5 +31,10 @@
         /// Drum 🥁
         /// </summary>
         public static readonly UnicodeString Drum = 0x1F941;
+
+        /// <summary>
+        /// Banjo
+        /// </summary>
+        public static readonly UnicodeString Banjo = 0x1FA95;
     }
 }

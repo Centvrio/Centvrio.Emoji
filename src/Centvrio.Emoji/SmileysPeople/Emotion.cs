@@ -93,6 +93,16 @@
         public static readonly UnicodeString HeavyHeart = 0x2763;
 
         /// <summary>
+        /// White heart
+        /// </summary>
+        public static readonly UnicodeString WhiteHeart = 0x1F90D;
+
+        /// <summary>
+        /// Brown heart
+        /// </summary>
+        public static readonly UnicodeString BrownHeart = 0x1F90E;
+
+        /// <summary>
         /// Love letter 💌
         /// </summary>
         public static readonly UnicodeString LoveLetter = 0x1F48C;

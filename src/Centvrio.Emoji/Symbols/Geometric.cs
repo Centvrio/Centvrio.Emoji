@@ -111,5 +111,65 @@
         /// Blue circle 🔵
         /// </summary>
         public static readonly UnicodeString BlueCircle = 0x1F535;
+
+        /// <summary>
+        /// Orange circle
+        /// </summary>
+        public static readonly UnicodeString OrangeCircle = 0x1F7E0;
+
+        /// <summary>
+        /// Yellow circle
+        /// </summary>
+        public static readonly UnicodeString YellowCircle = 0x1F7E1;
+
+        /// <summary>
+        /// Green circle
+        /// </summary>
+        public static readonly UnicodeString GreenCircle = 0x1F7E2;
+
+        /// <summary>
+        /// Purple circle
+        /// </summary>
+        public static readonly UnicodeString PurpleCircle = 0x1F7E3;
+
+        /// <summary>
+        /// Brown circle
+        /// </summary>
+        public static readonly UnicodeString BrownCircle = 0x1F7E4;
+
+        /// <summary>
+        /// Red square
+        /// </summary>
+        public static readonly UnicodeString RedSquare = 0x1F7E5;
+
+        /// <summary>
+        /// Orange square
+        /// </summary>
+        public static readonly UnicodeString OrangeSquare = 0x1F7E7;
+
+        /// <summary>
+        /// Yellow square
+        /// </summary>
+        public static readonly UnicodeString YellowSquare = 0x1F7E8;
+
+        /// <summary>
+        /// Green square
+        /// </summary>
+        public static readonly UnicodeString GreenSquare = 0x1F7E9;
+
+        /// <summary>
+        /// Blue square
+        /// </summary>
+        public static readonly UnicodeString BlueSquare = 0x1F7E6;
+
+        /// <summary>
+        /// Purple square
+        /// </summary>
+        public static readonly UnicodeString PurpleSquare = 0x1F7EA;
+
+        /// <summary>
+        /// Brown square
+        /// </summary>
+        public static readonly UnicodeString BrownSquare = 0x1F7EB;
     }
 }

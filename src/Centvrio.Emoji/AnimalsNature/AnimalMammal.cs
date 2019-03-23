@@ -266,5 +266,30 @@
         /// Badger 🦡
         /// </summary>
         public static readonly UnicodeString Badger = 0x1F9A1;
+
+        /// <summary>
+        /// Guide dog
+        /// </summary>
+        public static readonly UnicodeString GuideDog = 0x1F9AE;
+
+        /// <summary>
+        /// Sloth
+        /// </summary>
+        public static readonly UnicodeString Sloth = 0x1F9A5;
+
+        /// <summary>
+        /// Otter
+        /// </summary>
+        public static readonly UnicodeString Otter = 0x1F9A6;
+
+        /// <summary>
+        /// Orangutan
+        /// </summary>
+        public static readonly UnicodeString Orangutan = 0x1F9A7;
+
+        /// <summary>
+        /// Skunk
+        /// </summary>
+        public static readonly UnicodeString Skunk = 0x1F9A8;
     }
 }

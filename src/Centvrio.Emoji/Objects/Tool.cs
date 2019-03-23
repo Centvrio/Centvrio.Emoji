@@ -91,5 +91,15 @@
         /// Magnet 🧲
         /// </summary>
         public static readonly UnicodeString Magnet = 0x1F9F2;
+
+        /// <summary>
+        /// Axe
+        /// </summary>
+        public static readonly UnicodeString Axe = 0x1FA93;
+
+        /// <summary>
+        /// Probing cane
+        /// </summary>
+        public static readonly UnicodeString ProbingCane = 0x1F9AF;
     }
 }

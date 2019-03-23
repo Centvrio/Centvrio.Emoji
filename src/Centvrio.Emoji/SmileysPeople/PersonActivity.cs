@@ -81,5 +81,15 @@
         /// Busts in silhouette 👥
         /// </summary>
         public static readonly UnicodeString BustsInSilhouette = 0x1F465;
+
+        /// <summary>
+        /// Person standing
+        /// </summary>
+        public static readonly UnicodeString Standing = 0x1F9CD;
+
+        /// <summary>
+        /// Person kneeling
+        /// </summary>
+        public static readonly UnicodeString Kneeling = 0x1F9CE;
     }
 }

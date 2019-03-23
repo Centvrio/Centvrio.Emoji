@@ -83,6 +83,11 @@
         public static readonly UnicodeString OkHand = 0x1F44C;
 
         /// <summary>
+        /// Pinching hand
+        /// </summary>
+        public static readonly UnicodeString PinchingHand = 0x1F90F;
+
+        /// <summary>
         /// Thumbs up 👍
         /// </summary>
         public static readonly UnicodeString ThumbsUp = 0x1F44D;
@@ -246,5 +251,20 @@
         /// Tooth 🦷
         /// </summary>
         public static readonly UnicodeString Tooth = 0x1F9B7;
+
+        /// <summary>
+        /// Mechanical arm
+        /// </summary>
+        public static readonly UnicodeString MechanicalArm = 0x1F9BE;
+
+        /// <summary>
+        /// Mechanical leg
+        /// </summary>
+        public static readonly UnicodeString MechanicalLeg = 0x1F9BF;
+
+        /// <summary>
+        /// Ear with hearing aid
+        /// </summary>
+        public static readonly UnicodeString EarHearingAid = 0x1F9BB;
     }
 }

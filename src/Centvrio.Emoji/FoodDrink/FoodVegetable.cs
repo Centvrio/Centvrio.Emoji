@@ -61,5 +61,15 @@
         /// Leafy green 🥬
         /// </summary>
         public static readonly UnicodeString LeafyGreen = 0x1F96C;
+
+        /// <summary>
+        /// Garlic
+        /// </summary>
+        public static readonly UnicodeString Garlic = 0x1F9C4;
+
+        /// <summary>
+        /// Onion
+        /// </summary>
+        public static readonly UnicodeString Onion = 0x1F9C5;
     }
 }
