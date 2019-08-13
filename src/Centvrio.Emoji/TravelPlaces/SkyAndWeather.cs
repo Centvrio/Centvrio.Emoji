@@ -228,7 +228,7 @@
         public static readonly UnicodeString WaterWave = 0x1F30A;
 
         /// <summary>
-        /// Ringed planet
+        /// Ringed planet 🪐
         /// </summary>
         public static readonly UnicodeString RingedPlanet = 0x1FA90;
     }

@@ -78,7 +78,7 @@
         public static readonly UnicodeString Parrot = 0x1F99C;
 
         /// <summary>
-        /// Flamingo
+        /// Flamingo 🦩
         /// </summary>
         public static readonly UnicodeString Flamingo = 0x1F9A9;
     }

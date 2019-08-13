@@ -68,7 +68,7 @@
         public static readonly UnicodeString Lobster = 0x1F99E;
 
         /// <summary>
-        /// Oyster
+        /// Oyster 🦪
         /// </summary>
         public static readonly UnicodeString Oyster = 0x1F9AA;
     }

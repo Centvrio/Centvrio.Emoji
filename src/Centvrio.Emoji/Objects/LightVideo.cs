@@ -80,7 +80,7 @@ namespace Centvrio.Emoji
         public static readonly UnicodeString RedPaperLantern = 0x1F3EE;
 
         /// <summary>
-        /// Diya lamp
+        /// Diya lamp 🪔
         /// </summary>
         public static readonly UnicodeString DiyaLamp = 0x1FA94;
 

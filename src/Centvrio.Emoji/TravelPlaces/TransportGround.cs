@@ -213,17 +213,17 @@
         public static readonly UnicodeString Skateboard = 0x1F6F9;
 
         /// <summary>
-        /// Manual wheelchair
+        /// Manual wheelchair 🦽
         /// </summary>
         public static readonly UnicodeString ManualWheelchair = 0x1F9BD;
 
         /// <summary>
-        /// Motorized wheelchair
+        /// Motorized wheelchair 🦼
         /// </summary>
         public static readonly UnicodeString MotorizedWheelchair = 0x1F9BC;
 
         /// <summary>
-        /// Auto rickshaw
+        /// Auto rickshaw 🛺
         /// </summary>
         public static readonly UnicodeString AutoRickshaw = 0x1F6FA;
     }

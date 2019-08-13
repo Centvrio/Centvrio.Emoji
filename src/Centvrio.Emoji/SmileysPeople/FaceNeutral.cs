@@ -138,7 +138,7 @@
         public static readonly UnicodeString Astonished = 0x1f632;
 
         /// <summary>
-        /// Yawning face
+        /// Yawning face 🥱
         /// </summary>
         public static readonly UnicodeString Yawning = 0x1f971;
     }

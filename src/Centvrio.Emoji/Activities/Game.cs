@@ -78,12 +78,12 @@
         public static readonly UnicodeString ChessPawn = 0x265F;
 
         /// <summary>
-        /// Yo-yo
+        /// Yo-yo 🪀
         /// </summary>
         public static readonly UnicodeString YoYo = 0x1FA80;
 
         /// <summary>
-        /// Kite
+        /// Kite 🪁
         /// </summary>
         public static readonly UnicodeString Kite = 0x1FA81;
     }

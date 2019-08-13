@@ -113,62 +113,62 @@
         public static readonly UnicodeString BlueCircle = 0x1F535;
 
         /// <summary>
-        /// Orange circle
+        /// Orange circle 🟠
         /// </summary>
         public static readonly UnicodeString OrangeCircle = 0x1F7E0;
 
         /// <summary>
-        /// Yellow circle
+        /// Yellow circle 🟡
         /// </summary>
         public static readonly UnicodeString YellowCircle = 0x1F7E1;
 
         /// <summary>
-        /// Green circle
+        /// Green circle 🟢
         /// </summary>
         public static readonly UnicodeString GreenCircle = 0x1F7E2;
 
         /// <summary>
-        /// Purple circle
+        /// Purple circle 🟣
         /// </summary>
         public static readonly UnicodeString PurpleCircle = 0x1F7E3;
 
         /// <summary>
-        /// Brown circle
+        /// Brown circle 🟤
         /// </summary>
         public static readonly UnicodeString BrownCircle = 0x1F7E4;
 
         /// <summary>
-        /// Red square
+        /// Red square 🟥
         /// </summary>
         public static readonly UnicodeString RedSquare = 0x1F7E5;
 
         /// <summary>
-        /// Orange square
+        /// Orange square 🟧
         /// </summary>
         public static readonly UnicodeString OrangeSquare = 0x1F7E7;
 
         /// <summary>
-        /// Yellow square
+        /// Yellow square 🟨
         /// </summary>
         public static readonly UnicodeString YellowSquare = 0x1F7E8;
 
         /// <summary>
-        /// Green square
+        /// Green square 🟩
         /// </summary>
         public static readonly UnicodeString GreenSquare = 0x1F7E9;
 
         /// <summary>
-        /// Blue square
+        /// Blue square 🟦
         /// </summary>
         public static readonly UnicodeString BlueSquare = 0x1F7E6;
 
         /// <summary>
-        /// Purple square
+        /// Purple square 🟪
         /// </summary>
         public static readonly UnicodeString PurpleSquare = 0x1F7EA;
 
         /// <summary>
-        /// Brown square
+        /// Brown square 🟫
         /// </summary>
         public static readonly UnicodeString BrownSquare = 0x1F7EB;
     }

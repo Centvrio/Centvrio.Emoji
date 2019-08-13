@@ -63,7 +63,7 @@
         public static readonly UnicodeString FlyingSaucer = 0x1F6F8;
 
         /// <summary>
-        /// Parachute
+        /// Parachute 🪂
         /// </summary>
         public static readonly UnicodeString Parachute = 0x1FA82;
 

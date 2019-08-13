@@ -13,17 +13,17 @@
         public static readonly UnicodeString Pill = 0x1F48A;
 
         /// <summary>
-        /// Drop of blood
+        /// Drop of blood 🩸
         /// </summary>
         public static readonly UnicodeString DropBlood = 0x1FA78;
 
         /// <summary>
-        /// Adhesive bandage
+        /// Adhesive bandage 🩹
         /// </summary>
         public static readonly UnicodeString AdhesiveBandage = 0x1FA79;
 
         /// <summary>
-        /// Stethoscope
+        /// Stethoscope 🩺
         /// </summary>
         public static readonly UnicodeString Stethoscope = 0x1FA7A;
     }

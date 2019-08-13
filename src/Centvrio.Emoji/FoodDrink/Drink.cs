@@ -73,17 +73,17 @@
         public static readonly UnicodeString CupWithStraw = 0x1F964;
 
         /// <summary>
-        /// Beverage box
+        /// Beverage box 🧃
         /// </summary>
         public static readonly UnicodeString BeverageBox = 0x1F9C3;
 
         /// <summary>
-        /// Mate
+        /// Mate 🧉
         /// </summary>
         public static readonly UnicodeString Mate = 0x1F9C9;
 
         /// <summary>
-        /// Ice cube
+        /// Ice cube 🧊
         /// </summary>
         public static readonly UnicodeString IceCube = 0x1F9CA;
     }
