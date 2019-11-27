@@ -11,6 +11,11 @@ Install-Package Centvrio.Emoji
 ```
 
 ### Documentation
+
+#### Lookup
+A full lookup table is available [here](docs/Reference.md)
+
+#### Usage
 Use single-character emoji
 ```csharp
 string print = $"Grinning face: {FacePositive.Grinning}";
