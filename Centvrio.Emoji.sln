@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DCD992EA-AE1B-43FC-9ED0-1F8E446F4679}"
 EndProject
@@ -20,6 +20,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2DD430E0-4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centvrio.Emoji.Tests", "test\Centvrio.Emoji.Tests\Centvrio.Emoji.Tests.csproj", "{45DC5C06-FADA-43E0-9B88-380113EA4646}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centvrio.Emoji.DocumentationGenerator", "src\Centvrio.Emoji.DocumentationGenerator\Centvrio.Emoji.DocumentationGenerator.csproj", "{BF8D094F-A898-4096-BC32-742B4666F683}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{69727668-6DDF-42A4-9A92-0123548F1C14}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Reference.md = docs\Reference.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +41,10 @@ Global
 		{45DC5C06-FADA-43E0-9B88-380113EA4646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45DC5C06-FADA-43E0-9B88-380113EA4646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45DC5C06-FADA-43E0-9B88-380113EA4646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8D094F-A898-4096-BC32-742B4666F683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8D094F-A898-4096-BC32-742B4666F683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8D094F-A898-4096-BC32-742B4666F683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8D094F-A898-4096-BC32-742B4666F683}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +52,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1F086045-6DEF-491A-BB55-33AC030FDA36} = {DCD992EA-AE1B-43FC-9ED0-1F8E446F4679}
 		{45DC5C06-FADA-43E0-9B88-380113EA4646} = {2DD430E0-4CA9-4FE1-980E-442CED77E234}
+		{BF8D094F-A898-4096-BC32-742B4666F683} = {DCD992EA-AE1B-43FC-9ED0-1F8E446F4679}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D73D8611-3447-418D-823E-4BBEDB0D6A0D}
