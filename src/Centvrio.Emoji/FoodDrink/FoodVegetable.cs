@@ -71,5 +71,10 @@
         /// Onion 🧅
         /// </summary>
         public static readonly UnicodeString Onion = 0x1F9C5;
+
+        /// <summary>
+        /// Bell pepper 🫑
+        /// </summary>
+        public static readonly UnicodeString BellPepper = 0x1FAD1;
     }
 }

@@ -86,5 +86,20 @@
         /// Kite 🪁
         /// </summary>
         public static readonly UnicodeString Kite = 0x1FA81;
+
+        /// <summary>
+        /// Magic wand 🪄
+        /// </summary>
+        public static readonly UnicodeString MagicWand = 0x1FA84;
+
+        /// <summary>
+        /// Piñata 🪅
+        /// </summary>
+        public static readonly UnicodeString Pinata = 0x1FA85;
+
+        /// <summary>
+        /// Nesting dolls 🪆
+        /// </summary>
+        public static readonly UnicodeString NestingDolls = 0x1FA86;
     }
 }

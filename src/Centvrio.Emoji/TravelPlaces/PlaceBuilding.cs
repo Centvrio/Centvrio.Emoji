@@ -126,5 +126,20 @@
         /// Bricks 🧱
         /// </summary>
         public static readonly UnicodeString Bricks = 0x1F9F1;
+
+        /// <summary>
+        /// Rock 🪨
+        /// </summary>
+        public static readonly UnicodeString Rock = 0x1FAA8;
+
+        /// <summary>
+        /// Wood 🪵
+        /// </summary>
+        public static readonly UnicodeString Wood = 0x1FAB5;
+
+        /// <summary>
+        /// Hut 🛖
+        /// </summary>
+        public static readonly UnicodeString Hut = 0x1F6D6;
     }
 }

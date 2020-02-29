@@ -176,5 +176,10 @@
         /// Infinity ♾️
         /// </summary>
         public static readonly UnicodeString Infinity = 0x267E;
+
+        /// <summary>
+        /// Transgender symbol ⚧
+        /// </summary>
+        public static readonly UnicodeString Transgender = 0x26A7;
     }
 }

@@ -61,5 +61,10 @@
         /// Leaf fluttering in wind 🍃
         /// </summary>
         public static readonly UnicodeString LeafFlutteringInWind = 0x1F343;
+
+        /// <summary>
+        /// Potted plant 🪴
+        /// </summary>
+        public static readonly UnicodeString PottedPlant = 0x1FAB4;
     }
 }

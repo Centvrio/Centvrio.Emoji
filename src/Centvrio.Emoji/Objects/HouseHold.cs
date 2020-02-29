@@ -86,5 +86,40 @@
         /// Razor 🪒
         /// </summary>
         public static readonly UnicodeString Razor = 0x1FA92;
+
+        /// <summary>
+        /// Elevator 🛗
+        /// </summary>
+        public static readonly UnicodeString Elevator = 0x1F6D7;
+
+        /// <summary>
+        /// Mirror 🪞
+        /// </summary>
+        public static readonly UnicodeString Mirror = 0x1FA9E;
+
+        /// <summary>
+        /// Window 🪟
+        /// </summary>
+        public static readonly UnicodeString Window = 0x1FA9F;
+
+        /// <summary>
+        /// Plunger 🪠
+        /// </summary>
+        public static readonly UnicodeString Plunger = 0x1FAA0;
+
+        /// <summary>
+        /// Mouse trap 🪤
+        /// </summary>
+        public static readonly UnicodeString MouseTrap = 0x1FAA4;
+
+        /// <summary>
+        /// Bucket 🪣
+        /// </summary>
+        public static readonly UnicodeString Bucket = 0x1FAA3;
+
+        /// <summary>
+        /// Toothbrush 🪥
+        /// </summary>
+        public static readonly UnicodeString Toothbrush = 0x1FAA5;
     }
 }

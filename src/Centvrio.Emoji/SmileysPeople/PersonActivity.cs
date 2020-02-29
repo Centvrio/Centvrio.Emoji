@@ -91,5 +91,10 @@
         /// Person kneeling 🧎
         /// </summary>
         public static readonly UnicodeString Kneeling = 0x1F9CE;
+
+        /// <summary>
+        /// People hugging 🫂
+        /// </summary>
+        public static readonly UnicodeString Hugging = 0x1FAC2;
     }
 }

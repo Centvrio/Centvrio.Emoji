@@ -2,21 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.1.5</Version>
+    <Version>1.1.6</Version>
     <Authors>Sergey N. Sytnic</Authors>
     <Company>Sergey N. Sytnic</Company>
-    <Product>Emoji v12.0 implementation for .NET</Product>
-    <Description>Emoji v12.0 implementation for .NET</Description>
+    <Product>Emoji v13.0 implementation for .NET</Product>
+    <Description>Emoji v13.0 implementation for .NET</Description>
     <Copyright>Copyright © Sergey N. Sytnic, 2018-2019</Copyright>
     <PackageTags>Emoji Unicode UTF32</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReleaseNotes>https://github.com/Centvrio/Centvrio.Emoji/releases</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/Centvrio/Centvrio.Emoji</RepositoryUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/Centvrio/Centvrio.Emoji/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Centvrio/Centvrio.Emoji</PackageProjectUrl>
-    <AssemblyVersion>1.1.5.114</AssemblyVersion>
-    <FileVersion>1.1.5.114</FileVersion>
-    <PackageIconUrl>https://raw.githubusercontent.com/Centvrio/Centvrio.Emoji/master/logo.png</PackageIconUrl>
+    <AssemblyVersion>1.1.6.117</AssemblyVersion>
+    <FileVersion>1.1.6.117</FileVersion>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -28,5 +30,16 @@
     <LangVersion>latest</LangVersion>
     <DocumentationFile>bin\Release\netstandard2.0\Centvrio.Emoji.xml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

@@ -86,5 +86,15 @@
         /// Mango 🥭
         /// </summary>
         public static readonly UnicodeString Mango = 0x1F96D;
+
+        /// <summary>
+        /// Blueberries 🫐
+        /// </summary>
+        public static readonly UnicodeString Blueberries = 0x1FAD0;
+
+        /// <summary>
+        /// Olive 🫒
+        /// </summary>
+        public static readonly UnicodeString Olive = 0x1FAD2;
     }
 }

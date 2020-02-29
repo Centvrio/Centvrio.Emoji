@@ -111,5 +111,10 @@
         /// Smiling face with 3 hearts 🥰
         /// </summary>
         public static readonly UnicodeString ThreeHearts = 0x1F970;
+
+        /// <summary>
+        /// Smiling face with tear 🥲
+        /// </summary>
+        public static readonly UnicodeString Tear = 0x1F972;
     }
 }

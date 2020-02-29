@@ -1,9 +1,10 @@
-﻿## Centvrio.Emoji - [Emoji v12.0](http://unicode.org/Public/emoji/12.0/emoji-test.txt) implementation for .NET
+﻿## Centvrio.Emoji - [Emoji v13.0](http://unicode.org/Public/emoji/13.0/emoji-test.txt) implementation for .NET
 [![NuGet](https://img.shields.io/nuget/v/Centvrio.Emoji.svg?style=flat-square)](https://www.nuget.org/packages/Centvrio.Emoji/)
 [![NuGet](https://img.shields.io/nuget/dt/Centvrio.Emoji.svg?style=flat-square)](https://www.nuget.org/packages/Centvrio.Emoji/)
 [![GitHub license](https://img.shields.io/github/license/Centvrio/Centvrio.Emoji.svg?style=flat-square)](https://github.com/Centvrio/Centvrio.Emoji/blob/master/LICENSE)
 [![AppVeyor](https://img.shields.io/appveyor/ci/Centvrio/centvrio-emoji.svg?style=flat-square)](https://ci.appveyor.com/project/Centvrio/centvrio-emoji)
 [![AppVeyor tests](https://img.shields.io/appveyor/tests/Centvrio/centvrio-emoji.svg?style=flat-square)](https://ci.appveyor.com/project/Centvrio/centvrio-emoji)
+[![CodeFactor](https://www.codefactor.io/repository/github/centvrio/centvrio.emoji/badge?style=flat-square)](https://www.codefactor.io/repository/github/centvrio/centvrio.emoji)
 
 ### Get it on NuGet
 ```powershell

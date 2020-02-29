@@ -1,4 +1,6 @@
-﻿namespace Centvrio.Emoji
+﻿using System;
+
+namespace Centvrio.Emoji
 {
     public class PersonRole
     {
@@ -60,6 +62,7 @@
         /// <summary>
         /// Man in tuxedo 🤵
         /// </summary>
+        [Obsolete("Use PersonInTuxedo instead")]
         public static readonly UnicodeString ManInTuxedo = 0x1F935;
 
         /// <summary>
@@ -76,5 +79,15 @@
         /// Breast-feeding 🤱
         /// </summary>
         public static readonly UnicodeString BreastFeeding = 0x1F931;
+
+        /// <summary>
+        /// Ninja 🥷
+        /// </summary>
+        public static readonly UnicodeString Ninja = 0x1F977;
+
+        /// <summary>
+        /// Person in tuxedo 🤵
+        /// </summary>
+        public static readonly UnicodeString PersonInTuxedo = 0x1F935;
     }
 }

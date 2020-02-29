@@ -291,5 +291,20 @@
         /// Skunk 🦨
         /// </summary>
         public static readonly UnicodeString Skunk = 0x1F9A8;
+
+        /// <summary>
+        /// Bison 🦬
+        /// </summary>
+        public static readonly UnicodeString Bison = 0x1F9AC;
+
+        /// <summary>
+        /// Mammoth 🦣
+        /// </summary>
+        public static readonly UnicodeString Mammoth = 0x1F9A3;
+
+        /// <summary>
+        /// Beaver 🦫
+        /// </summary>
+        public static readonly UnicodeString Beaver = 0x1F9AB;
     }
 }

@@ -21,5 +21,15 @@
         /// Moai 🗿
         /// </summary>
         public static readonly UnicodeString Moai = 0x1F5FF;
+
+        /// <summary>
+        /// Headstone 🪦
+        /// </summary>
+        public static readonly UnicodeString Headstone = 0x1FAA6;
+
+        /// <summary>
+        /// Placard 🪧
+        /// </summary>
+        public static readonly UnicodeString Placard = 0x1FAA7;
     }
 }

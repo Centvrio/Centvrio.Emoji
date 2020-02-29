@@ -216,5 +216,15 @@
         /// Ballet shoes 🩰
         /// </summary>
         public static readonly UnicodeString BalletShoes = 0x1FA70;
+
+        /// <summary>
+        /// Thong sandal 🩴
+        /// </summary>
+        public static readonly UnicodeString ThongSandal = 0x1FA74;
+
+        /// <summary>
+        /// Military helmet 🪖
+        /// </summary>
+        public static readonly UnicodeString MilitaryHelmet = 0x1FA96;
     }
 }

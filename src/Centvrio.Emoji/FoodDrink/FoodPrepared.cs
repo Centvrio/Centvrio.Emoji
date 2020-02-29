@@ -156,5 +156,20 @@
         /// Butter 🧈
         /// </summary>
         public static readonly UnicodeString Butter = 0x1F9C8;
+
+        /// <summary>
+        /// Flatbread 🫓
+        /// </summary>
+        public static readonly UnicodeString Flatbread = 0x1FAD3;
+
+        /// <summary>
+        /// Tamale 🫔
+        /// </summary>
+        public static readonly UnicodeString Tamale = 0x1FAD4;
+
+        /// <summary>
+        /// Fondue 🫕
+        /// </summary>
+        public static readonly UnicodeString Fondue = 0x1FAD5;
     }
 }

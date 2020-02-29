@@ -56,5 +56,10 @@
         /// Pleading face 🥺
         /// </summary>
         public static readonly UnicodeString Pleading = 0x1F97A;
+
+        /// <summary>
+        /// Disguised face 🥸
+        /// </summary>
+        public static readonly UnicodeString Disguised = 0x1F978;
     }
 }

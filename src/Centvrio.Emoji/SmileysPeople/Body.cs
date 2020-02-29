@@ -266,5 +266,20 @@
         /// Ear with hearing aid 🦻
         /// </summary>
         public static readonly UnicodeString EarHearingAid = 0x1F9BB;
+
+        /// <summary>
+        /// Pinched fingers
+        /// </summary>
+        public static readonly UnicodeString PinchedFingers = 0x1F90C;
+
+        /// <summary>
+        /// Anatomical heart 🫀
+        /// </summary>
+        public static readonly UnicodeString AnatomicalHeart = 0x1FAC0;
+
+        /// <summary>
+        /// Lungs 🫁
+        /// </summary>
+        public static readonly UnicodeString Lungs = 0x1FAC1;
     }
 }

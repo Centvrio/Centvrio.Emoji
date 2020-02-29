@@ -7,6 +7,8 @@
 | 🎨 - `ArtsCrafts.ArtistPalette`
 | 🧵 - `ArtsCrafts.Thread`
 | 🧶 - `ArtsCrafts.Yarn`
+| 🪡 - `ArtsCrafts.SewingNeedle`
+| 🪢 - `ArtsCrafts.Knot`
 
 | AwardMedal |
 | --- |
@@ -60,6 +62,9 @@
 | ♟ - `Game.ChessPawn`
 | 🪀 - `Game.YoYo`
 | 🪁 - `Game.Kite`
+| 🪄 - `Game.MagicWand`
+| 🪅 - `Game.Pinata`
+| 🪆 - `Game.NestingDolls`
 
 | Sport |
 | --- |
@@ -115,6 +120,8 @@
 | 🦚 - `AnimalBird.Peacock`
 | 🦜 - `AnimalBird.Parrot`
 | 🦩 - `AnimalBird.Flamingo`
+| 🦤 - `AnimalBird.Dodo`
+| 🪶 - `AnimalBird.Feather`
 
 | AnimalBug |
 | --- |
@@ -130,6 +137,10 @@
 | 🦂 - `AnimalBug.Scorpion`
 | 🦟 - `AnimalBug.Mosquito`
 | 🦠 - `AnimalBug.Microbe`
+| 🪲 - `AnimalBug.Beetle`
+| 🪳 - `AnimalBug.Cockroach`
+| 🪰 - `AnimalBug.Fly`
+| 🪱 - `AnimalBug.Worm`
 
 | AnimalMammal |
 | --- |
@@ -191,6 +202,9 @@
 | 🦦 - `AnimalMammal.Otter`
 | 🦧 - `AnimalMammal.Orangutan`
 | 🦨 - `AnimalMammal.Skunk`
+| 🦬 - `AnimalMammal.Bison`
+| 🦣 - `AnimalMammal.Mammoth`
+| 🦫 - `AnimalMammal.Beaver`
 
 | AnimalMarine |
 | --- |
@@ -208,6 +222,7 @@
 | 🦑 - `AnimalMarine.Squid`
 | 🦞 - `AnimalMarine.Lobster`
 | 🦪 - `AnimalMarine.Oyster`
+| 🦭 - `AnimalMarine.Seal`
 
 | AnimalReptile |
 | --- |
@@ -247,6 +262,7 @@
 | 🍁 - `PlantOther.MapleLeaf`
 | 🍂 - `PlantOther.FallenLeaf`
 | 🍃 - `PlantOther.LeafFlutteringInWind`
+| 🪴 - `PlantOther.PottedPlant`
 
 | Flag |
 | --- |
@@ -284,6 +300,8 @@
 | 🧃 - `Drink.BeverageBox`
 | 🧉 - `Drink.Mate`
 | 🧊 - `Drink.IceCube`
+| 🫖 - `Drink.Teapot`
+| 🧋 - `Drink.BubbleTea`
 
 | FoodAsian |
 | --- |
@@ -324,6 +342,8 @@
 | 🍅 - `FoodFruit.Tomato`
 | 🥥 - `FoodFruit.Coconut`
 | 🥭 - `FoodFruit.Mango`
+| 🫐 - `FoodFruit.Blueberries`
+| 🫒 - `FoodFruit.Olive`
 
 | FoodPrepared |
 | --- |
@@ -358,6 +378,9 @@
 | 🧇 - `FoodPrepared.Waffle`
 | 🧆 - `FoodPrepared.Falafel`
 | 🧈 - `FoodPrepared.Butter`
+| 🫓 - `FoodPrepared.Flatbread`
+| 🫔 - `FoodPrepared.Tamale`
+| 🫕 - `FoodPrepared.Fondue`
 
 | FoodSweet |
 | --- |
@@ -392,6 +415,7 @@
 | 🥬 - `FoodVegetable.LeafyGreen`
 | 🧄 - `FoodVegetable.Garlic`
 | 🧅 - `FoodVegetable.Onion`
+| 🫑 - `FoodVegetable.BellPepper`
 
 | ModifierFitzpatrick |
 | --- |
@@ -420,6 +444,54 @@
 | 📑 - `BookPaper.BookmarkTabs`
 | 🔖 - `BookPaper.Bookmark`
 | 🏷 - `BookPaper.Label`
+
+| Clothing |
+| --- |
+| 👓 - `Clothing.Glasses`
+| 🕶 - `Clothing.Sunglasses`
+| 👔 - `Clothing.Necktie`
+| 👕 - `Clothing.TShirt`
+| 👖 - `Clothing.Jeans`
+| 🧣 - `Clothing.Scarf`
+| 🧤 - `Clothing.Gloves`
+| 🧥 - `Clothing.Coat`
+| 🧦 - `Clothing.Socks`
+| 👗 - `Clothing.Dress`
+| 👘 - `Clothing.Kimono`
+| 👙 - `Clothing.Bikini`
+| 👚 - `Clothing.WomanClothes`
+| 👛 - `Clothing.Purse`
+| 👜 - `Clothing.Handbag`
+| 👝 - `Clothing.ClutchBbag`
+| 🛍 - `Clothing.ShoppingBags`
+| 🎒 - `Clothing.SchoolBackpack`
+| 👞 - `Clothing.ManShoe`
+| 👟 - `Clothing.RunningShoe`
+| 👠 - `Clothing.HighHeeledShoe`
+| 👡 - `Clothing.WomanSandal`
+| 👢 - `Clothing.WomanBoot`
+| 👑 - `Clothing.Crown`
+| 👒 - `Clothing.WomanHat`
+| 🎩 - `Clothing.TopHat`
+| 🎓 - `Clothing.GraduationCap`
+| 🧢 - `Clothing.BilledCap`
+| ⛑ - `Clothing.RescueWorkerHelmet`
+| 📿 - `Clothing.PrayerBeads`
+| 💄 - `Clothing.Lipstick`
+| 💍 - `Clothing.Ring`
+| 💎 - `Clothing.GemStone`
+| 🥽 - `Clothing.Goggles`
+| 🥼 - `Clothing.LabCoat`
+| 🥾 - `Clothing.HikingBoot`
+| 🥿 - `Clothing.WomanFlatShoe`
+| 🦺 - `Clothing.SafetyVest`
+| 🥻 - `Clothing.Sari`
+| 🩱 - `Clothing.OnePieceSwimsuit`
+| 🩲 - `Clothing.Briefs`
+| 🩳 - `Clothing.Shorts`
+| 🩰 - `Clothing.BalletShoes`
+| 🩴 - `Clothing.ThongSandal`
+| 🪖 - `Clothing.MilitaryHelmet`
 
 | Computer |
 | --- |
@@ -456,6 +528,13 @@
 | 🧯 - `HouseHold.FireExtinguisher`
 | 🪑 - `HouseHold.Chair`
 | 🪒 - `HouseHold.Razor`
+| 🛗 - `HouseHold.Elevator`
+| 🪞 - `HouseHold.Mirror`
+| 🪟 - `HouseHold.Window`
+| 🪠 - `HouseHold.Plunger`
+| 🪤 - `HouseHold.MouseTrap`
+| 🪣 - `HouseHold.Bucket`
+| 🪥 - `HouseHold.Toothbrush`
 
 | LightVideo |
 | --- |
@@ -522,6 +601,7 @@
 | 💱 - `Money.CurrencyExchange`
 | 💲 - `Money.DollarSign`
 | 🧾 - `Money.Receipt`
+| 🪙 - `Money.Coin`
 
 | Music |
 | --- |
@@ -544,6 +624,8 @@
 | 🎻 - `MusicalInstrument.Violin`
 | 🥁 - `MusicalInstrument.Drum`
 | 🪕 - `MusicalInstrument.Banjo`
+| 🪗 - `MusicalInstrument.Accordion`
+| 🪘 - `MusicalInstrument.LongDrum`
 
 | Office |
 | --- |
@@ -577,6 +659,8 @@
 | ⚰ - `OtherObjects.Coffin`
 | ⚱ - `OtherObjects.FuneralUrn`
 | 🗿 - `OtherObjects.Moai`
+| 🪦 - `OtherObjects.Headstone`
+| 🪧 - `OtherObjects.Placard`
 
 | Phone |
 | --- |
@@ -631,6 +715,11 @@
 | 🧲 - `Tool.Magnet`
 | 🪓 - `Tool.Axe`
 | 🦯 - `Tool.ProbingCane`
+| 🪃 - `Tool.Boomerang`
+| 🪚 - `Tool.CarpentrySaw`
+| 🪛 - `Tool.Screwdriver`
+| 🪝 - `Tool.Hook`
+| 🪜 - `Tool.Ladder`
 
 | Writing |
 | --- |
@@ -726,6 +815,9 @@
 | 🦾 - `Body.MechanicalArm`
 | 🦿 - `Body.MechanicalLeg`
 | 🦻 - `Body.EarHearingAid`
+| 🤌 - `Body.PinchedFingers`
+| 🫀 - `Body.AnatomicalHeart`
+| 🫁 - `Body.Lungs`
 
 | CatFace |
 | --- |
@@ -738,52 +830,6 @@
 | 🙀 - `CatFace.Weary`
 | 😿 - `CatFace.Crying`
 | 😾 - `CatFace.Pouting`
-
-| Clothing |
-| --- |
-| 👓 - `Clothing.Glasses`
-| 🕶 - `Clothing.Sunglasses`
-| 👔 - `Clothing.Necktie`
-| 👕 - `Clothing.TShirt`
-| 👖 - `Clothing.Jeans`
-| 🧣 - `Clothing.Scarf`
-| 🧤 - `Clothing.Gloves`
-| 🧥 - `Clothing.Coat`
-| 🧦 - `Clothing.Socks`
-| 👗 - `Clothing.Dress`
-| 👘 - `Clothing.Kimono`
-| 👙 - `Clothing.Bikini`
-| 👚 - `Clothing.WomanClothes`
-| 👛 - `Clothing.Purse`
-| 👜 - `Clothing.Handbag`
-| 👝 - `Clothing.ClutchBbag`
-| 🛍 - `Clothing.ShoppingBags`
-| 🎒 - `Clothing.SchoolBackpack`
-| 👞 - `Clothing.ManShoe`
-| 👟 - `Clothing.RunningShoe`
-| 👠 - `Clothing.HighHeeledShoe`
-| 👡 - `Clothing.WomanSandal`
-| 👢 - `Clothing.WomanBoot`
-| 👑 - `Clothing.Crown`
-| 👒 - `Clothing.WomanHat`
-| 🎩 - `Clothing.TopHat`
-| 🎓 - `Clothing.GraduationCap`
-| 🧢 - `Clothing.BilledCap`
-| ⛑ - `Clothing.RescueWorkerHelmet`
-| 📿 - `Clothing.PrayerBeads`
-| 💄 - `Clothing.Lipstick`
-| 💍 - `Clothing.Ring`
-| 💎 - `Clothing.GemStone`
-| 🥽 - `Clothing.Goggles`
-| 🥼 - `Clothing.LabCoat`
-| 🥾 - `Clothing.HikingBoot`
-| 🥿 - `Clothing.WomanFlatShoe`
-| 🦺 - `Clothing.SafetyVest`
-| 🥻 - `Clothing.Sari`
-| 🩱 - `Clothing.OnePieceSwimsuit`
-| 🩲 - `Clothing.Briefs`
-| 🩳 - `Clothing.Shorts`
-| 🩰 - `Clothing.BalletShoes`
 
 | Emotion |
 | --- |
@@ -917,6 +963,7 @@
 | 🤗 - `FacePositive.Hugging`
 | 🤩 - `FacePositive.StarStruck`
 | 🥰 - `FacePositive.ThreeHearts`
+| 🥲 - `FacePositive.Tear`
 
 | FaceRole |
 | --- |
@@ -931,6 +978,7 @@
 | 🥳 - `FaceRole.Partying`
 | 🥴 - `FaceRole.Woozy`
 | 🥺 - `FaceRole.Pleading`
+| 🥸 - `FaceRole.Disguised`
 
 | FaceSick |
 | --- |
@@ -980,6 +1028,7 @@
 | 👥 - `PersonActivity.BustsInSilhouette`
 | 🧍 - `PersonActivity.Standing`
 | 🧎 - `PersonActivity.Kneeling`
+| 🫂 - `PersonActivity.Hugging`
 
 | PersonFamily |
 | --- |
@@ -1035,6 +1084,8 @@
 | 👰 - `PersonRole.BrideWithVeil`
 | 🤰 - `PersonRole.PregnantWoman`
 | 🤱 - `PersonRole.BreastFeeding`
+| 🥷 - `PersonRole.Ninja`
+| 🤵 - `PersonRole.PersonInTuxedo`
 
 | PersonSport |
 | --- |
@@ -1229,6 +1280,7 @@
 | ® - `OtherSymbols.Registered`
 | ™ - `OtherSymbols.Trade`
 | ♾ - `OtherSymbols.Infinity`
+| ⚧ - `OtherSymbols.Transgender`
 
 | Religion |
 | --- |
@@ -1325,6 +1377,9 @@
 | 🗼 - `PlaceBuilding.TokyoTower`
 | 🗽 - `PlaceBuilding.StatueOfLiberty`
 | 🧱 - `PlaceBuilding.Bricks`
+| 🪨 - `PlaceBuilding.Rock`
+| 🪵 - `PlaceBuilding.Wood`
+| 🛖 - `PlaceBuilding.Hut`
 
 | PlaceGeographic |
 | --- |
@@ -1523,6 +1578,8 @@
 | 🦽 - `TransportGround.ManualWheelchair`
 | 🦼 - `TransportGround.MotorizedWheelchair`
 | 🛺 - `TransportGround.AutoRickshaw`
+| 🛻 - `TransportGround.PickupTruck`
+| 🛼 - `TransportGround.RollerSkate`
 
 | TransportWater |
 | --- |

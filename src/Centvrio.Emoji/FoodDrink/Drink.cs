@@ -86,5 +86,15 @@
         /// Ice cube 🧊
         /// </summary>
         public static readonly UnicodeString IceCube = 0x1F9CA;
+
+        /// <summary>
+        /// Teapot 🫖
+        /// </summary>
+        public static readonly UnicodeString Teapot = 0x1FAD6;
+
+        /// <summary>
+        /// Bubble tea 🧋
+        /// </summary>
+        public static readonly UnicodeString BubbleTea = 0x1F9CB;
     }
 }

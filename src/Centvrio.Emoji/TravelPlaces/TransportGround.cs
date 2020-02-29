@@ -226,5 +226,15 @@
         /// Auto rickshaw 🛺
         /// </summary>
         public static readonly UnicodeString AutoRickshaw = 0x1F6FA;
+
+        /// <summary>
+        /// Pickup truck 🛻
+        /// </summary>
+        public static readonly UnicodeString PickupTruck = 0x1F6FB;
+
+        /// <summary>
+        /// Roller skate 🛼
+        /// </summary>
+        public static readonly UnicodeString RollerSkate = 0x1F6FC;
     }
 }

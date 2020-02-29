@@ -101,5 +101,30 @@
         /// Probing cane 🦯
         /// </summary>
         public static readonly UnicodeString ProbingCane = 0x1F9AF;
+
+        /// <summary>
+        /// Boomerang 🪃
+        /// </summary>
+        public static readonly UnicodeString Boomerang = 0x1FA83;
+
+        /// <summary>
+        /// Carpentry saw 🪚
+        /// </summary>
+        public static readonly UnicodeString CarpentrySaw = 0x1FA9A;
+
+        /// <summary>
+        /// Screwdriver 🪛
+        /// </summary>
+        public static readonly UnicodeString Screwdriver = 0x1FA9B;
+
+        /// <summary>
+        /// Hook 🪝
+        /// </summary>
+        public static readonly UnicodeString Hook = 0x1FA9D;
+
+        /// <summary>
+        /// Ladder 🪜
+        /// </summary>
+        public static readonly UnicodeString Ladder = 0x1FA9C;
     }
 }

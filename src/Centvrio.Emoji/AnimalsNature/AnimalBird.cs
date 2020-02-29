@@ -81,5 +81,15 @@
         /// Flamingo 🦩
         /// </summary>
         public static readonly UnicodeString Flamingo = 0x1F9A9;
+
+        /// <summary>
+        /// Dodo 🦤
+        /// </summary>
+        public static readonly UnicodeString Dodo = 0x1F9A4;
+
+        /// <summary>
+        /// Feather 🪶
+        /// </summary>
+        public static readonly UnicodeString Feather = 0x1FAB6;
     }
 }

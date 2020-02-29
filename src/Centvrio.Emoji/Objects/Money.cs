@@ -56,5 +56,10 @@
         /// Receipt 🧾
         /// </summary>
         public static readonly UnicodeString Receipt = 0x1F9FE;
+
+        /// <summary>
+        /// Coin 🪙
+        /// </summary>
+        public static readonly UnicodeString Coin = 0x1FA99;
     }
 }

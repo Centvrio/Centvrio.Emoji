@@ -10,16 +10,16 @@ namespace Centvrio.Emoji.DocumentationGenerator
     {
         static void Main(string[] args)
         {
-            var unicodeStringType = typeof(UnicodeString);
-            var types = unicodeStringType.Assembly.GetTypes();
+            Type unicodeStringType = typeof(UnicodeString);
+            Type[] types = unicodeStringType.Assembly.GetTypes();
 
             var sb = new StringBuilder(types.Length * 1000);
             sb.AppendLine("# Reference");
             sb.AppendLine();
 
-            foreach (var type in types)
+            foreach (Type type in types)
             {
-                var fields = type.GetFields(BindingFlags.Public | BindingFlags.Static)
+                FieldInfo[] fields = type.GetFields(BindingFlags.Public | BindingFlags.Static)
                     .Where(prop => prop.FieldType == unicodeStringType)
                     .ToArray();
                 if (!fields.Any())
@@ -30,7 +30,7 @@ namespace Centvrio.Emoji.DocumentationGenerator
                 sb.AppendLine($"| {type.Name} |");
                 sb.AppendLine($"| --- |");
 
-                foreach (var prop in fields)
+                foreach (FieldInfo prop in fields)
                 {
                     sb.AppendLine($"| {prop.GetValue(null)} - `{type.Name}.{prop.Name}`");
                 }

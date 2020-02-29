@@ -36,5 +36,15 @@
         /// Banjo 🪕
         /// </summary>
         public static readonly UnicodeString Banjo = 0x1FA95;
+
+        /// <summary>
+        /// Accordion 🪗
+        /// </summary>
+        public static readonly UnicodeString Accordion = 0x1FA97;
+
+        /// <summary>
+        /// Long drum 🪘
+        /// </summary>
+        public static readonly UnicodeString LongDrum = 0x1FA98;
     }
 }

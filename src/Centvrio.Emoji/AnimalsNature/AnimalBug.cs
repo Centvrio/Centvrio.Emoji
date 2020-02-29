@@ -61,5 +61,25 @@
         /// Microbe 🦠
         /// </summary>
         public static readonly UnicodeString Microbe = 0x1F9A0;
+
+        /// <summary>
+        /// Beetle 🪲
+        /// </summary>
+        public static readonly UnicodeString Beetle = 0x1FAB2;
+
+        /// <summary>
+        /// Cockroach 🪳
+        /// </summary>
+        public static readonly UnicodeString Cockroach = 0x1FAB3;
+
+        /// <summary>
+        /// Fly 🪰
+        /// </summary>
+        public static readonly UnicodeString Fly = 0x1FAB0;
+
+        /// <summary>
+        /// Worm 🪱
+        /// </summary>
+        public static readonly UnicodeString Worm = 0x1FAB1;
     }
 }

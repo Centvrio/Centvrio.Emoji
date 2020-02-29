@@ -71,5 +71,10 @@
         /// Oyster 🦪
         /// </summary>
         public static readonly UnicodeString Oyster = 0x1F9AA;
+
+        /// <summary>
+        /// Seal 🦭
+        /// </summary>
+        public static readonly UnicodeString Seal = 0x1F9AD;
     }
 }

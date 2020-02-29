@@ -26,5 +26,15 @@
         /// Yarn 🧶
         /// </summary>
         public static readonly UnicodeString Yarn = 0x1F9F6;
+
+        /// <summary>
+        /// Sewing needle 🪡
+        /// </summary>
+        public static readonly UnicodeString SewingNeedle = 0x1FAA1;
+
+        /// <summary>
+        /// Knot 🪢
+        /// </summary>
+        public static readonly UnicodeString Knot = 0x1FAA2;
     }
 }
