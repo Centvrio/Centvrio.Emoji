@@ -66,6 +66,5 @@
         /// Ballot box with ballot 🗳️
         /// </summary>
         public static readonly UnicodeString BallotBox = 0x1F5F3;
-
     }
 }

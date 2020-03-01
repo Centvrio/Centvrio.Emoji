@@ -156,6 +156,5 @@
         /// Eleven-thirty 🕦
         /// </summary>
         public static readonly UnicodeString ElevenThirty = 0x1F566;
-
     }
 }

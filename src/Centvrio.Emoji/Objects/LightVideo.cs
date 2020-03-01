@@ -83,6 +83,5 @@ namespace Centvrio.Emoji
         /// Diya lamp 🪔
         /// </summary>
         public static readonly UnicodeString DiyaLamp = 0x1FA94;
-
     }
 }

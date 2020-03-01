@@ -51,6 +51,5 @@
         /// Old woman 👵
         /// </summary>
         public static readonly UnicodeString OldWoman = 0x1F475;
-
     }
 }

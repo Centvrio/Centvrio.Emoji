@@ -86,6 +86,5 @@
         /// Label 🏷
         /// </summary>
         public static readonly UnicodeString Label = 0x1F3F7;
-
     }
 }

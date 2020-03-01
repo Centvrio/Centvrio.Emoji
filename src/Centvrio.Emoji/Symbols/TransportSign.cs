@@ -66,6 +66,5 @@
         /// Left luggage 🛅
         /// </summary>
         public static readonly UnicodeString LeftLuggage = 0x1F6C5;
-
     }
 }

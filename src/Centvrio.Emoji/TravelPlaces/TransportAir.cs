@@ -66,6 +66,5 @@
         /// Parachute 🪂
         /// </summary>
         public static readonly UnicodeString Parachute = 0x1FA82;
-
     }
 }
